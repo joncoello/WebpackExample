@@ -67,20 +67,25 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-﻿var person = __webpack_require__(1);
+"use strict";
 
-console.log(person.firstName + ' ' + person.lastName);
+Object.defineProperty(exports, "__esModule", { value: true });
+var person_1 = __webpack_require__(1);
+console.log(person_1.person.firstName + ' ' + person_1.person.lastName);
+
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-﻿var person = {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.person = {
     firstName: 'David',
     lastName: 'Barreto'
 };
 
-module.exports = person;
 
 /***/ })
 /******/ ]);

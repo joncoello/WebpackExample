@@ -1,5 +1,4 @@
-"use strict";
-exports.person = {
+﻿export let person = {
     firstName: 'David',
     lastName: 'Barreto'
 };
